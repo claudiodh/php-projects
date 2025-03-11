@@ -1,0 +1,20 @@
+{
+    "name": "cfenn/assignment2-solution",
+    "authors": [
+        {
+            "name": "Claudio Delgado",
+            "email": "cdelgado1@bcit.ca"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "phpauth/phpauth": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "src\\": "src"
+        },
+        "files": ["core/helpers.php"]
+    }
+}
